@@ -4,7 +4,7 @@ class Dog(object):
         print(f'Parabéns, sou {self.name} seu novo  cachorro')
     
     def sound(self, sound): #método sound
-        print(f'{self.name} sou um cachorro, faço esse {sound} barulho')
+        print(f'{self.name} sou um cachorro, faço esse {sound} barulho ')
 
 #instância a classe caramelo
 german_shepherd = Dog('Maira') #classe instanciada
