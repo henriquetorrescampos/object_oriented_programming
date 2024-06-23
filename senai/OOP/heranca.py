@@ -34,8 +34,10 @@ class Cat(Animal): #classe filho
     def __init__(self, color, name, sound, walk, run):
         super().__init__(color, name, sound, walk, run)
 
+#bird = objeto
 bird = Bird('Yellow', 'Parrot', 'PI PI', False, False) #instância da classe, objeto
 print(bird.Sound())
 
+#dog = objeto
 dog = Dog('white', 'hana', 'AU AU', True, True) #instância da classe, objeto
 print(dog.Lick())
