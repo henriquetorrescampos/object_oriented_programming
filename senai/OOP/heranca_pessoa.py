@@ -8,7 +8,7 @@ class Pessoa(object):
 class Pessoa_fisica(Pessoa):
     def __init__(self, nome, cpf):
         super().__init__(nome)
-        self.cpf = cpf
+        self.cpf =  cpf
     
     def get_cpf(self):
         return self.cpf
